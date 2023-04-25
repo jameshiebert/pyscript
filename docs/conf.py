@@ -105,4 +105,9 @@ myst_enable_extensions = [
     "colon_fence",
     "smartquotes",
     "replacements",
+    "substitution",
 ]
+
+myst_substitutions = {
+    "v_pyodide": "0.22.0a3",
+}
