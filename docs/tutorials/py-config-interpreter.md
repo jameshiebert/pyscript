@@ -75,8 +75,8 @@ To confirm that the interpreter is set correctly, you can open the DevTools and 
   <body>
     <py-config>
       [[interpreters]]
-        src = "https://cdn.jsdelivr.net/pyodide/v0.22.0a3/full/pyodide.js"
-        name = "pyodide-0.22.0a3"
+        src = "https://cdn.jsdelivr.net/pyodide/v{{ v_pyodide }}/full/pyodide.js"
+        name = "pyodide-{{ v_pyodide }}}"
         lang = "python"
     </py-config>
     <py-script>
